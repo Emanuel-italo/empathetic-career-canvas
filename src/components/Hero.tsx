@@ -13,6 +13,23 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+          {/* Photo */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="relative"
+          >
+            <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary-foreground/30 shadow-glow">
+              <img
+                src={profilePhoto}
+                alt="Foto de perfil"
+                className="w-full h-full object-cover object-top"
+              />
+            </div>
+            {/* Decorative ring */}
+            <div className="absolute inset-0 w-64 h-64 md:w-80 md:h-80 rounded-full border-2 border-primary-foreground/20 animate-pulse" style={{ transform: "scale(1.1)" }} />
+          </motion.div>
 
           {/* Content */}
           <motion.div
