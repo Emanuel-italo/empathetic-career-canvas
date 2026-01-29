@@ -49,7 +49,7 @@ const Hero = () => {
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-4 leading-tight">
               Olá, eu sou
-              <span className="block text-accent mt-2">[Seu Nome]</span>
+              <span className="block text-accent mt-2">[Sarah Camila]]</span>
             </h1>
 
             <p className="text-lg md:text-xl text-primary-foreground/90 mb-4 font-medium">
