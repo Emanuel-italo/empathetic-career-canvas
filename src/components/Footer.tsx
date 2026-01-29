@@ -61,7 +61,7 @@ const Footer = () => {
             </p>
 
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} [Sarah Camila]. Todos os direitos reservados.
+              © {new Date().getFullYear()} Sarah Camila. Todos os direitos reservados.
             </p>
 
             <motion.button
